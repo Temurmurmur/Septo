@@ -1,0 +1,42 @@
+.header{
+  z-index: 10;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.sp-col {
+  display: flex;
+}
+
+.sp-chat {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #747474;
+  margin-right: 58px;
+  img{
+    margin-top: 3px;
+    margin-right: 13px;
+  }
+  &:hover{
+    text-decoration: none;
+    color: #747474;
+  }
+}
+
+.sp-call {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00CEA9;
+  &:hover{
+    text-decoration: none;
+    color: #00CEA9;
+  }
+}

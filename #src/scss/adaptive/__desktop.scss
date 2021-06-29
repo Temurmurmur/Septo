@@ -1,0 +1,199 @@
+@media screen and (max-width: 1650px) {
+  .sp-btn-white {
+    padding: 0 25px;
+  }
+
+  .reab {
+    justify-content: center;
+
+    img,
+    picture {
+      width: 75%;
+      text-align: right;
+    }
+
+    &__content {
+      width: 50%;
+      padding-right: 50px;
+    }
+  }
+
+  .sp-books {
+    right: 0;
+  }
+
+  .sp-question__form {
+    padding-right: 50px;
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+
+  .diagnostic__img,
+  .tele__img {
+    width: 50%;
+  }
+
+  .team__item {
+    width: 31%;
+  }
+
+  .info {
+    padding: 0 50px;
+  }
+
+  .sp-ledi {
+    right: 0;
+  }
+
+  .sp-banner {
+    min-height: 750px;
+    background-position-x: center !important;
+  }
+
+  .tele__content {
+    width: 45%;
+    padding: 0 50px;
+  }
+
+  .sp-question__img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .sp-list__item {
+    flex-basis: 38%;
+  }
+
+  .sp-ledi {
+    right: -135px;
+  }
+
+  .info {
+    margin: 75px 0;
+  }
+
+  .tele__content {
+    margin-left: 0;
+  }
+
+  .sp-table td {
+    font-size: 16px;
+  }
+
+  .diagnostic__img {
+    height: 820px;
+  }
+
+  .diagnostic__content {
+    margin-right: 0;
+  }
+
+  .sp-books {
+    right: -155px;
+  }
+
+  .team__item p {
+    width: 100%;
+  }
+
+  .comfort__content {
+    padding-left: 0;
+  }
+
+  .care {
+    background-position-x: 30% !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .recomend__content {
+    padding: 60px 50px 20px;
+  }
+
+  .sp-ledi {
+    right: -60px;
+    width: 23%;
+  }
+
+  .info__card {
+    padding: 55px 50px 60px 55px;
+  }
+
+  .title-h2 {
+    font-size: 37px;
+  }
+
+  .sp-table th {
+    padding: 13px 10px 10px;
+    font-size: 16px;
+  }
+
+  .sp-table td {
+    padding: 13px 10px 10px;
+  }
+
+  .diagnostic__img {
+    display: none;
+  }
+
+  .diagnostic__content {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sp-books {
+    right: -110px;
+    width: 75%;
+  }
+
+  .reab__bg {
+    display: none;
+  }
+
+  .reab {
+    flex-direction: column;
+
+    &__content {
+      width: 80%;
+      margin: 0 auto;
+      padding: 0 50px;
+    }
+  }
+
+  .team__item {
+    width: 46%;
+  }
+
+  .team__item:nth-child(3n) {
+    margin-right: 20px;
+  }
+
+  .team__item {
+    margin-right: 20px;
+  }
+
+  .team {
+    margin-top: 200px;
+    padding-top: 44px;
+    padding-bottom: 50px;
+  }
+
+  .sp-slider .uk-panel{
+    height: 500px;
+  }
+
+  .sp-question__img{
+    display: none;
+  }
+
+  .sp-question__form{
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+}

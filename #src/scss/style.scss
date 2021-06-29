@@ -1,0 +1,13 @@
+@import "reset";
+@import "mixins";
+@import "fonts";
+@import "params";
+
+/*Главная, Header, Footer*/
+@import "index/__styles";
+@import "index/__header";
+@import "index/__footer";
+
+/*Адаптив*/
+@import "adaptive/__desktop";
+@import "adaptive/__mobile";
